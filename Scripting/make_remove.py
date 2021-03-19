@@ -42,5 +42,5 @@ with os.scandir(".") as it:
         if entry.is_file() and nm in entry.name:
             shutil.move(entry.name, "./temp")
 
-time.sleep(20)
+time.sleep(10)
 shutil.rmtree("temp")
