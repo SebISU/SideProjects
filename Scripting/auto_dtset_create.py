@@ -37,4 +37,3 @@ with open("sample_correct_data.json", "w") as f:
             row["Signal_value"] = round(random.uniform((x / 100 + 1) * 10 - 3, (x / 100 + 1) * 10 + 3), 1)
 
             f.write(json.dumps(row) + "\n")
-
